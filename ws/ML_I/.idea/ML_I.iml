@@ -5,6 +5,14 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/nbc" />
+        <option value="$MODULE_DIR$/log_regression" />
+      </list>
+    </option>
+  </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />
     <option name="PROJECT_TEST_RUNNER" value="Nosetests" />
