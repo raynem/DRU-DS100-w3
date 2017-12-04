@@ -11,8 +11,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML_I$nbc.coverage" NAME="nbc Coverage Results" MODIFIED="1512340047855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nbc" />
-    <SUITE FILE_PATH="coverage/ML_I$k_means.coverage" NAME="k-means Coverage Results" MODIFIED="1512340129147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means" />
+    <SUITE FILE_PATH="coverage/ML_I$k_means.coverage" NAME="k-means Coverage Results" MODIFIED="1512345496071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k-means" />
     <SUITE FILE_PATH="coverage/ML_I$log_reg.coverage" NAME="log_reg Coverage Results" MODIFIED="1512264645052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log_regression" />
+    <SUITE FILE_PATH="coverage/ML_I$knn.coverage" NAME="knn Coverage Results" MODIFIED="1512346654787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
     <SUITE FILE_PATH="coverage/ML_I$linreg_stochastic_grad_descent.coverage" NAME="linreg_stochastic_grad_descent Coverage Results" MODIFIED="1512237094457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linear regression" />
   </component>
   <component name="FileEditorManager">
@@ -20,7 +21,7 @@
       <file leaf-file-name="linreg_stochastic_grad_descent.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linear regression/linreg_stochastic_grad_descent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
+            <state relative-caret-position="1062">
               <caret line="60" column="2" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="26" />
               <folding>
                 <element signature="e#34#53#0" expanded="true" />
@@ -54,8 +55,8 @@
       <file leaf-file-name="nbc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nbc/nbc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -71,11 +72,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="k-means.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="k-means.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/k-means/k-means.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="-90">
+              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="knn.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/knn/knn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pima-indians-diabetes.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nbc/pima-indians-diabetes.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1026">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,6 +123,8 @@
         <option value="$PROJECT_DIR$/nbc/Naive Bayes Classifier.ipynb" />
         <option value="$PROJECT_DIR$/nbc/nbc.py" />
         <option value="$PROJECT_DIR$/k-means/k-means.py" />
+        <option value="$PROJECT_DIR$/knn/iris.data" />
+        <option value="$PROJECT_DIR$/knn/knn.py" />
       </list>
     </option>
   </component>
@@ -130,37 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
-              <item name="k-means" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
-              <item name="linear regression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
-              <item name="log_regression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
-              <item name="nbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems">
           <expand>
@@ -186,6 +180,42 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="ML_I" type="cbb8eebc:String" user="ML_I" />
               <item name="linear regression" type="cbb8eebc:String" user="linear regression" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
+              <item name="k-means" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
+              <item name="knn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
+              <item name="linear regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
+              <item name="log_regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_I" type="462c0819:PsiDirectoryNode" />
+              <item name="nbc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.k-means">
+  <component name="RunManager" selected="Python.knn">
     <configuration name="k-means" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,6 +265,24 @@
       <module name="ML_I" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k-means/k-means.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="knn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML_I" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knn/knn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,18 +341,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.linreg_stochastic_grad_descent" />
       <item index="1" class="java.lang.String" itemvalue="Python.log_reg" />
       <item index="2" class="java.lang.String" itemvalue="Python.nbc" />
       <item index="3" class="java.lang.String" itemvalue="Python.k-means" />
+      <item index="4" class="java.lang.String" itemvalue="Python.knn" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.k-means" />
-        <item index="1" class="java.lang.String" itemvalue="Python.nbc" />
-        <item index="2" class="java.lang.String" itemvalue="Python.log_reg" />
-        <item index="3" class="java.lang.String" itemvalue="Python.linreg_stochastic_grad_descent" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.knn" />
+        <item index="1" class="java.lang.String" itemvalue="Python.k-means" />
+        <item index="2" class="java.lang.String" itemvalue="Python.nbc" />
+        <item index="3" class="java.lang.String" itemvalue="Python.log_reg" />
+        <item index="4" class="java.lang.String" itemvalue="Python.linreg_stochastic_grad_descent" />
       </list>
     </recent_temporary>
   </component>
@@ -356,6 +406,58 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/linear regression/linreg_stochastic_grad_descent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#34#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_regression/binary.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_regression/log_reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbc/nbc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means/k-means.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linear regression/linreg_stochastic_grad_descent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -510,10 +612,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nbc/nbc.py">
+    <entry file="file://$PROJECT_DIR$/linear regression/linreg_stochastic_grad_descent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="1062">
+          <caret line="60" column="2" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="e#34#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k-means/K-means.ipynb" />
+    <entry file="file://$PROJECT_DIR$/knn/iris.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -526,28 +639,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linear regression/linreg_stochastic_grad_descent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="60" column="2" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="26" />
-          <folding>
-            <element signature="e#34#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k-means/K-means.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/k-means/k-means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="-90">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbc/pima-indians-diabetes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbc/nbc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/knn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
