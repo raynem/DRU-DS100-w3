@@ -11,7 +11,6 @@ class SVMTrainer(object):
         self._kernel = kernel
         self._c = c
 
-
     def train(self, X, y):
         """
             X: martix of features
@@ -42,7 +41,7 @@ class SVMTrainer(object):
         for i, x_i in enumerate(X):
             for j, x_j in enumerate(X):
                 K[i, j] = self._kernel(x_i, x_j)
-
+   
         return K
 
 
@@ -81,7 +80,7 @@ class SVMTrainer(object):
 
         return SVMPredictor(
             kernel=self._kernel,
-            bias=0.0,
+            bias=bias, # або 0.0
             weights=support_multipliers,
             support_vectors=support_vectors,
             support_vector_labels=support_vector_labels
